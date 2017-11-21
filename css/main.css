@@ -1,3 +1,115 @@
 /*
  * Estilos de tu proyecto
  */
+ body{
+   margin: 0;
+   padding: 0;
+ }
+ .cuadroA{
+   position: relative;
+   background: #18bc9c;
+
+   height: 500px
+   }
+.cuadro1{
+
+  background: #2c3e50;
+  width: auto;
+  height: 100Px;
+
+  }
+  ul{
+    outline: 1px solid blue;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  li{
+    outline: 1px solid red;
+    width: 200px;
+    display: inline-block;
+  }
+  a{
+    outline: 1px solid green;
+    text-decoration:none;
+    color: #fff;
+    display: block;
+  }
+  .circulo{
+    position:absolute;
+    width: 900px;
+    bottom: 230px;
+    }
+.logo{
+
+  bottom: 300px;
+  width: 228px;
+  margin: 50px;
+  display: block;
+}
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4,
+.imagen5,
+.imagen6{
+  width: 200px;
+  height: 100px;
+  right: 50px;
+}
+.imagenes{
+
+
+
+}
+
+img{
+  float: left;
+  width: 350px;
+  height:auto;
+  margin: 30px 30px;
+
+}
+.cuadroB{
+  position: relative;
+  background: #18bc9c;
+  height: 500px;
+}
+form{
+  margin: none;
+  border:1px solid #ccc;
+  padding: 20%;
+
+}
+form,h2{
+  font-size: 30px;
+  top: 30px;
+  display: block;
+}
+label{
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  margin: none;
+}
+input,textarea{
+  margin: none;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input[type="sumit"]{
+  background: #18bc9c;
+  color:#fff;
+  cursor: pointer;
+}
+.cuadroC{
+  height: 300px;
+  background:#2c3e50;
+}
+span,p{
+  display: block;
+}
